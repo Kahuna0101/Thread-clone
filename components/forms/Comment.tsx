@@ -20,7 +20,7 @@ import { usePathname, useRouter } from "next/navigation";
 
 import { CommentValidation } from "@/lib/Validations/thread";
 import Image from "next/image";
-import { addCommentToThread } from "@/lib/actions/thread.action";
+import { addCommentToThread } from "@/lib/actions/thread.actions";
 // import { createThread } from "@/lib/actions/thread.action";
 //import { updateUser } from "@/lib/actions/user.action";
 

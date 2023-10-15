@@ -176,7 +176,7 @@ export const POST = async (request: Request) => {
 
       return NextResponse.json(
         { message: "Internal Server Error" },
-        { status: 500 },
+        { status: 500 }
       );
     }
   }

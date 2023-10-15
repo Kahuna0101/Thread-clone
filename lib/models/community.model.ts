@@ -21,9 +21,9 @@ const communitySchema = new mongoose.Schema({
             type: mongoose.Schema.Types.ObjectId,
             ref: 'User'
         }
-    ]
+    ],
 });
 
-const Community = mongoose.models.Community || mongoose.model('User', communitySchema);
+const Community = mongoose.models.Community || mongoose.model('Community', communitySchema);
 
 export default Community;
